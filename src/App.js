@@ -1,8 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.scss';
+
 import Home from './pages/Home/Home'
 import Login from './pages/Login/Login'
-import Takliflar from './pages/Takliflar/takliflar'
+import Mahsulotar from './pages/Mahsulotlar/Mahsulotlar';
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/takliflar" element={<Takliflar />} />
+
+          <Route path="/mahsulotlar" element={<Mahsulotar/>}/>
+
         </Routes>
       </div>
     </div>
