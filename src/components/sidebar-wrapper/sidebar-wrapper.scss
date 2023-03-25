@@ -1,0 +1,14 @@
+.sidebar-wrapper {
+    background: #2E3444;
+    box-shadow: inset -1px 0px 0px #303030;
+    padding: 41px 23px 43px 29px;
+    width: 260px;
+    height: calc(100% + 100vh);
+    margin: 0;
+    list-style-type: none;
+    position: fixed;
+
+    &.grey {
+        background-color: antiquewhite;
+    }
+}

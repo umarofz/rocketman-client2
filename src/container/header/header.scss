@@ -1,0 +1,46 @@
+.header {
+    background: #2E3444;
+    box-shadow: inset 1px -1px 0px #303030;
+    
+    &_container {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+    }
+    
+    &_label {
+        margin-left: 62px;
+        margin-right: 550px;
+        background: #FFFFFF;
+        border-radius: 168px;
+        display: flex;
+        align-items: center;
+        padding: 12px 20px;
+    }
+    
+    &_input {
+        outline: none;
+        border: none;
+        margin-right: 25px;
+    }
+    
+    &_profile {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    &_profile_wrapper {
+        background: #EAEAEA;
+        border-radius: 420px;
+        padding: 8px 11px 7px 12px;
+        align-items: center;
+    }
+    
+    &_profile_heading {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+    }
+}
