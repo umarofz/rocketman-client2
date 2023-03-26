@@ -13,7 +13,6 @@ function App() {
   return (
     <div className={`app `}>
       <div className="layout">
-    
 
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,6 +22,7 @@ function App() {
           <Route path="/mijozlar" element={<Mijozlar/>}/>
           <Route path="/takliflar" element={<Takliflar/>}/>
           <Route path="/sozlamalar" element={<Sozlamalar/>}/>
+          <Route path="/mahsulotlar" element={<Mahsulotar/>}/>
         </Routes>
       </div>
     </div>
