@@ -1,9 +1,10 @@
-import './Mahsulotlar.scss'
+import './Sozlamalar.scss'
+
 
 import Header from   '../../container/header/header'
 import Sidebar from   '../../container/sidebar/sidebar'
 
-export default function Mahsulotar(){
+export default function Sozlamalar(){
     return (
         <>
         <Header/>
@@ -11,6 +12,6 @@ export default function Mahsulotar(){
         <div className="wraper">
             
         </div>
-        </>
+        </> 
     )
 }
