@@ -11,6 +11,8 @@ import Sozlamalar from './pages/Sozlamalar/Sozlamalar';
 import Drivers from './components/drivers/drivers';
 import Payment from './components/payment/payment';
 import User from './components/users/users';
+import SingleClients from './pages/Mijozlar/MijozalrSingle';
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
           <Route path="/buyurtmalar" element={<Buyurtmalar/>}/>
           <Route path="/mahsulotlar" element={<Mahsulotar/>}/>
           <Route path="/mijozlar" element={<Mijozlar/>}/>
+          <Route path="/mijozlar/:id" element={<SingleClients/>}/>
           <Route path="/takliflar" element={<Takliflar/>}/>
           <Route path="/sozlamalar" element={<Sozlamalar/>}/>
           <Route path="/mahsulotlar" element={<Mahsulotar/>}/>
