@@ -1,0 +1,78 @@
+.takliflar {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 20px 22px 35px 20px;
+    
+    &_heading {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        margin-bottom: 25px;
+    }
+    
+    &_item {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+    }
+    
+    &_id {
+        margin-right: 15px;
+    }
+    
+    &_wrap {
+        margin-right: 55px;
+    }
+    
+    &_owner {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        margin-bottom: 7px;
+        text-transform: capitalize;
+    }
+    
+    &_data {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+        opacity: 0.6;
+    }
+    
+    &_body {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 650px;
+        color: #000000;
+    }
+    
+    &_btn-w {
+        margin-left: 50px;
+        display: flex;
+        gap: 20px;
+        width: 30px;
+        height: 30px;
+    }
+    
+    &_btn {
+        outline: none;
+        border: none;
+    }
+}
+
+.dark {
+    background: #EBEBEB;
+    border-radius: 3px;
+}
+
+.red {
+    background: #FFDEDE;
+    border-radius: 3px;
+}

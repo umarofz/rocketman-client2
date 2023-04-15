@@ -8,11 +8,13 @@ import Buyurtmalar from './pages/Buyurtmalar/Buyurtmalar';
 import Mijozlar from './pages/Mijozlar/Mijozlar';
 import Takliflar from './pages/Takliflar/Takliflar';
 import Sozlamalar from './pages/Sozlamalar/Sozlamalar';
+import Drivers from './components/drivers/drivers';
+import Payment from './components/payment/payment';
+import User from './components/users/users';
 
 function App() {
   return (
     <div className={`app `}>
-      <div className="layout">
 
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,8 +25,10 @@ function App() {
           <Route path="/takliflar" element={<Takliflar/>}/>
           <Route path="/sozlamalar" element={<Sozlamalar/>}/>
           <Route path="/mahsulotlar" element={<Mahsulotar/>}/>
+          <Route path="/drivers" element={<Drivers/>}/>
+          <Route path="/payment" element={<Payment/>}/>
+          <Route path="/users" element={<User/>}/> 
         </Routes>
-      </div>
     </div>
   );
 }

@@ -1,0 +1,71 @@
+.users_heading {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.users {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 400px;
+    padding: 15px ;
+    
+    &_item {
+        display: flex;
+        align-items: center;
+    }
+    
+    &_id {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        margin-right: 3px;
+    }
+    
+    &_title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        margin-right: 200px; 
+    }
+    
+    &_btn-wraper {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .edit {
+        width: 40px;
+        height: 40px;
+        background: #008C06;
+        border-radius: 47px;
+        border: none;
+    }
+    
+    .drop {
+        width: 40px;
+        height: 40px;
+        background: #FFDEDE;
+        border-radius: 47px;
+        border: none;
+    }
+}
+
+.add {
+    outline: none;
+    margin-top: 20px;
+    background: #3EB597;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
