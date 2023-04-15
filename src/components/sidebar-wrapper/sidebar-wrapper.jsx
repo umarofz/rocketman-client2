@@ -1,4 +1,3 @@
-import '../sidebar-wrapper/sidebar-wrapper.scss';
 
 
 export default function SidebarWrapper(children) {

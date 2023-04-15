@@ -1,0 +1,90 @@
+.drivers {
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 10px;
+    
+    &_item-w {
+        background: #2E3444;
+        border-radius: 10px 10px 0px 0px;
+        display: flex;
+        align-items: center;
+        padding: 15px 25px;
+        gap: 100px;
+    }
+    
+    &_title-w {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+    
+    &_item {
+        display: flex;
+        align-items: center;
+        gap: 80px;
+        padding: 15px 25px;
+        
+        &:last-child {
+            margin-left: 20px;
+        }
+    }
+    
+    &_title {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #000000;
+        margin-right: 30px;
+
+        &:hover {
+            color: #2A8CFF;
+        }
+    }
+    
+    &_btn {
+        background: #008C06;
+        border-radius: 47px;
+        width: 32px;
+        height: 32px;
+        outline: none;
+        border: none;
+    }
+    
+    &_add {
+        background: #3EB597;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        border: 1px solid #008C06;
+        padding: 3px  7px;
+    }
+}
+
+.form {
+    display: none;
+}
+
+.formik{
+    display: block;
+}
+
+.input {
+    outline: none;
+    border: 1px solid #2E3444;
+    padding: 3px 6px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    display: block;
+}

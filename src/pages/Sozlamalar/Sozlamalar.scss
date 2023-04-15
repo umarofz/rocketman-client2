@@ -1,0 +1,24 @@
+.link_wrapper {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+    width: 247px;
+    margin: 20px 0 10px 300px;
+}
+
+.links {
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    border-radius: 150px;
+
+    &:hover, &:active {
+        background: #2E3444;
+        color: #FFFFFF;
+    }
+}    
